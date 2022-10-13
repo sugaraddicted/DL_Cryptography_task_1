@@ -58,10 +58,10 @@ void gen_rand_prime_num()                                                       
 
 {
     int count;
-    cout << "Enter number number A : " << endl;
+    cout << "Enter number A : " << endl;
     int a;
     cin >> a;
-    cout << "Enter number number B : " << endl;
+    cout << "Enter number B : " << endl;
     int b;
     cin >> b;
 
@@ -100,7 +100,7 @@ void gen_rand_prime_num()                                                       
 
 
 int main() {
-    cout << "Welcome to the menu! Please choose option:" << endl;
+    cout << "Welcome to the menu! Please choose an option:" << endl;
     cout << "1. Solve a mod m = x " << endl;
     cout << "2. Solve a^b mod m = x " << endl;
     cout << "3. Generate prime number in range from A to B " << endl;
